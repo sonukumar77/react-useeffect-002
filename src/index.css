@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainContainer {
+  /* border:  2px solid red; */
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.mainContainer>h1 {
+
+  background-color: rgb(27, 25, 25);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+form {
+
+  text-align: center;
+  margin: 1rem 0;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .inputBox {
+  border: 2px solid black;
+  width: 40%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  
+}
+
+form .searchBtn {
+ 
+  border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    height: 100%;
+    padding: 11px 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.para {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardContainer {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid green; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* border: 2px solid red; */
+
+  width: 15rem;
+  height: 20rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0.5rem 0;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card .posterContainer {
+  width: 100%;
+  height: 250px;
+  max-height: 80%;
+  /* border: 2px solid red; */
+  margin: 0.5rem 0;
+}
+
+.card .posterContainer img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.card p {
+  text-align: center;
+}
